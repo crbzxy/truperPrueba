@@ -1,5 +1,5 @@
 
-cd react-redux-simple-login-application  
+cd truperPrueba
 yarn   
 yarn start  
 
