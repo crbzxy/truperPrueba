@@ -11,7 +11,6 @@ import Wrapper from "./components/Wrapper";
 
 const wrapperDashboard = Wrapper(Dashboard);
 
-const wrapperIntegrations = Wrapper(Integrations);
 
 class App extends Component {
   render() {
@@ -22,11 +21,7 @@ class App extends Component {
             <Route exact path="/" component={Login} />
             <Route exact path="/dashboard" component={wrapperDashboard} />
            
-            <Route
-              exact
-              path="/entegrasyonlar"
-              component={wrapperIntegrations}
-            />
+          
           </Switch>
         </BrowserRouter>
       </Provider>
