@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Login from "./components/Login";
 import Dashboard from "./components/Pages";
 
-import Integrations from "./components/Pages/Integrations";
 
 import { store } from "./helpers";
 import { Provider } from "react-redux";
